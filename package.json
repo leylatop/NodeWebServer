@@ -1,0 +1,26 @@
+{
+  "name": "my-server",
+  "version": "1.0.0",
+  "description": "使用 Node 搭建的本地服务器",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiao19950428/NodeWebServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiao19950428/NodeWebServer/issues"
+  },
+  "homepage": "https://github.com/qiao19950428/NodeWebServer#readme",
+  "dependencies": {
+    "koa": "^2.0.0",
+    "koa-router": "7.0.0",
+    "koa-bodyparser": "3.2.0",
+    "nunjucks": "2.4.2"
+  }
+}
